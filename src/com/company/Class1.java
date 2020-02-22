@@ -4,9 +4,8 @@ public class Class1 <T extends Number, S extends Number> implements Drawable<T, 
     private T num1;
     private S num2;
 
-    public Class1(T num1, S num2) {
-        this.num1 = num1;
-        this.num2 = num2;
+    public Class1() {
+
     }
 
     public T getNum1() {
@@ -18,10 +17,6 @@ public class Class1 <T extends Number, S extends Number> implements Drawable<T, 
     }
 
 
-    @Override
-    public void draw() {
-        System.out.println(num1 +" "+num2);
-    }
 
     @Override
     public void nums(T num1, S num2) {
